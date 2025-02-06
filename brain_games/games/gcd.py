@@ -6,9 +6,11 @@ rand_min = 2
 rand_max = 10
 gcd = [2, 3, 5]
 
+
 def play_gcd():
     welcome('Find the greatest common divisor of given numbers.')
     game_loop(generate_questions())
+
 
 def generate_questions():
     question_list = []
@@ -25,6 +27,7 @@ def generate_questions():
         question = [resulting_string, g]
         question_list.append(question)
     return question_list
+
 
 def calculate_gcd(a, b):
     while b != 0:
