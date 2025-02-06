@@ -32,9 +32,10 @@ def compare_answer(answer, correct_answer):
 
 def game_loop(questions):
     for i in range(len(questions)):
-        ask_question(questions[i][0])
+        question, correct_answer = questions[i]
+        ask_question(question)
         answer = get_answer()
-        is_correct = compare_answer(answer, questions[i][1])
+        is_correct = compare_answer(answer, correct_answer)
         if is_correct:
             print('Correct!')
         else:

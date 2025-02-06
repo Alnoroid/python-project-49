@@ -7,7 +7,7 @@ rand_max = 10
 
 
 def play_calc():
-    welcome('Answer "yes" if the number is even, otherwise answer "no".')
+    welcome('What is the result of the expression?')
     game_loop(generate_questions())
 
 

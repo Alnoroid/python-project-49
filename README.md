@@ -9,4 +9,4 @@
 
 ### Brain-calc:
 
-[![asciicast](https://asciinema.org/a/ILyFPlzPvOI7Dm4vCgewgVAqJ.svg)](https://asciinema.org/a/ILyFPlzPvOI7Dm4vCgewgVAqJ)
+[![asciicast](https://asciinema.org/a/bez4WjzFH3gRC0mxAhmZfIhtQ.svg)](https://asciinema.org/a/bez4WjzFH3gRC0mxAhmZfIhtQ)
