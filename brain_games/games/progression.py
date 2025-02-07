@@ -20,7 +20,7 @@ def generate_questions():
     question_list = []
     for i in range(number_of_questions):
         prog_len = random.randint(prog_len_min, prog_len_max)
-        hidden_element = random.randint(0, prog_len)
+        hidden_element = random.randint(0, prog_len - 1)
         prog_step = random.randint(prog_step_min, prog_step_max)
         prog_start = random.randint(prog_start_min, prog_start_max)
         progression = []
