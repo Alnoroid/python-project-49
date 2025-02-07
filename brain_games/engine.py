@@ -12,7 +12,7 @@ def welcome(message):
 
 
 def ask_question(question):
-    print('question: ' + str(question))
+    print('Question: ' + str(question))
 
 
 def get_answer():
