@@ -48,5 +48,5 @@ def win():
 
 
 def lose():
-    # print(f)
-    exit(f"Let's try again, {user_name}")
+    print(f"Let's try again, {user_name}!")
+    exit(0)
